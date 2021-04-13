@@ -18,7 +18,7 @@ app.get("/jobs", (req, res) => {
     
             if (jobs) {
                 res.status(200).send({
-                    message: "data retrieved from the cache",
+                    message: "data retrieved from the cache.",
                     jobs: JSON.parse(jobs)
                     
                 });
